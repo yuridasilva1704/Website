@@ -1,0 +1,73 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    background-image: url(./img/astronauta.jpg);
+}
+
+#header {
+    width: 100%;
+    height: 74px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #1A1E34;
+    box-shadow: 0 -4px 0 rgba(0,0,0.863);
+}
+
+nav {
+    margin-right: 32px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 31px;
+}
+
+.link-header {
+    text-decoration: none;
+    color: rgb(216, 216, 216);
+
+    padding: 16px 16px;
+    font-size: 16px; 
+    font-weight: bold; 
+}
+
+#main {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main div {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#main img {
+    height: 100%;
+    width: 98%;
+}
+
+#description {
+    font-size: 42px;
+    color: #fff;
+    font-weight: 300;
+}
+
