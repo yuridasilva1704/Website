@@ -1,2 +1,2 @@
-# http://yuri_silva.github.io/Website
+# yuri_silva.github.io
 My website
